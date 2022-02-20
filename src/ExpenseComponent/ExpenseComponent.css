@@ -1,0 +1,16 @@
+.component {
+    background-color: orangered;
+    width: 100%;
+}
+
+.title-row {
+    background-color: aqua;
+}
+
+.btn-remove {
+    float: right;
+}
+
+.btn-edit {
+    float: right;
+}
