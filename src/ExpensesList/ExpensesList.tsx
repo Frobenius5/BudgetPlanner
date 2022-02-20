@@ -11,8 +11,8 @@ const ExpensesList: React.FC = (): JSX.Element => {
             <button className="btn-add" type="button">Add</button>
         </div>
         <ul>
-            <li>a</li>
-            <li>b</li>
+            <li><ExpenseComponent title={"Schokolade"} category={"Essen"} cost={1.99} /></li>
+            <li><ExpenseComponent title={"Bothe"} category={"Freizeit"} description={"Beitrag für den Monat Januar"} cost={49.99}/></li>
         </ul>
     </div>);
 }
